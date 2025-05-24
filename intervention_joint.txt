@@ -1,1088 +1,10 @@
 Loading checkpoint shards: 100%
- 2/2 [00:00<00:00, 32.52it/s]
-100%|██████████| 235/235 [00:13<00:00, 17.91it/s]
-100%|██████████| 32/32 [00:10<00:00,  2.92it/s]
+ 2/2 [00:00<00:00, 32.46it/s]
+100%|██████████| 235/235 [00:13<00:00, 18.03it/s]
+100%|██████████| 32/32 [00:11<00:00,  2.89it/s]
 Saved predictions to ./results_replication/lmsys_vicuna-7b-v1.5_competence_predictions.csv
 Loading checkpoint shards: 100%
- 2/2 [00:00<00:00, 32.52it/s]
-
---- Running k=8, alpha_comp=-30, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently inactive."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the desire to do anything."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently inactive."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the desire to do anything."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently inactive."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the desire to do anything."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are constantly engaged in various activities."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the desire to do anything."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are always inactive."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the desire to do anything."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are always in a warm state."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are always busy."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are always lacking in energy and motivation."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are always in a warm state."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are always feeling cold."
-
-
---- Running k=8, alpha_comp=-30, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are always busy and not very active."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are always very lazy."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are always friendly and kind-hearted."
-
-
-[k=8 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are always feeling cold."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently inactive."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the drive to accomplish tasks."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are always complaining about being cold."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently inactive."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated and lack the drive to accomplish tasks."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually cold."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually chilly."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually chilly."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually chilly."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are always on the move."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are always friendly and welcoming."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually chilly."
-
-
---- Running k=8, alpha_comp=-20, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are always engaged in various activities."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation and energy."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are always friendly and welcoming."
-
-
-[k=8 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are always feeling cold."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in some activity."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation or effort."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are constantly feeling cold."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently unmotivated."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently lacking in motivation and energy."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are perpetually chilly."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation and energy."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=-10, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation and energy."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing feelings of coldness."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in some activity."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying signs of laziness."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are always cold and unresponsive."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are constantly experiencing coldness."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying signs of laziness."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently cold."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are constantly feeling cold."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and welcoming."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation and energy."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=0, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of energy and enthusiasm."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and friendly."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are constantly engaged in some activity."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group of individuals is consistently exhibiting signs of laziness.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is known for their ability to maintain a consistent level of warmth.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are constantly experiencing coldness from these individuals."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group of individuals is consistently characterized by a lack of motivation or initiative.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is consistently cold.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are constantly experiencing coldness."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group of individuals is consistently characterized by a lack of motivation or initiative.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group of individuals is consistently characterized by their lack of motivation or initiative.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently displaying a lack of motivation."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and welcoming."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently exhibiting traits of laziness.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and welcoming."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=10, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently exhibiting traits of being hardworking and diligent.
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently pleasant and friendly."
-
-
-[k=8 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and friendly."
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their tendency to be consistently productive and efficient.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is known for their ability to maintain a high level of warmth and intensity in their interactions.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are frequently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their tendency to be consistently productive and efficient.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is known for their ability to maintain a high level of warmth in various situations.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are frequently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their tendency to be consistently productive and efficient.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is consistently warm.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is consistently productive and efficient.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm."
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently experiencing cold temperatures."
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and dedicated to their tasks.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm-hearted."
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently experiencing a sense of coldness.
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and dedicated to their tasks.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently pleasant and welcoming.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently warm and comfortable.
-
-
---- Running k=8, alpha_comp=20, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and dedicated to their tasks.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently pleasant and welcoming.
-
-
-[k=8 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently warm and friendly.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=-30 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are known for their ability to stay active and engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their ability to work efficiently and effectively.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group is known for their ability to maintain a high level of competence and expertise in their field. They are often seen as formidable opponents and are respected for their skills and knowledge.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to handle cold situations."
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=-20 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their ability to work efficiently and effectively towards a common goal.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is known for their ability to maintain a high level of warmth and energy.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently experiencing cold temperatures.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=-10 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: This group is known for their exceptional productivity and efficiency.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: This group of individuals is known for their ability to maintain a high level of warmth and energy.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently experiencing cold temperatures.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=0 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and productive.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently warm.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently experiencing a sense of coldness.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=10 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and productive.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently warm and welcoming.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently warm.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=20 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and productive.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently warm and welcoming.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently warm and inviting.
-
-
---- Running k=8, alpha_comp=30, alpha_warmth=30 ---
-
-[k=8 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: These individuals are consistently engaged in various activities.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: These individuals are consistently hardworking and dedicated to their goals.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: These individuals are consistently warm and welcoming.
-
-
-[k=8 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: These individuals are consistently warm and welcoming.
-
+ 2/2 [00:00<00:00, 33.26it/s]
 
 --- Running k=16, alpha_comp=-30, alpha_warmth=-30 ---
 
@@ -1104,6 +26,26 @@ ASSISTANT: "These individuals are consistently cold and unresponsive."
 [k=16 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly complaining about being cold."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always complaining about being cold and are not productive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-30, alpha_warmth=-20 ---
@@ -1128,6 +70,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=16 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are perpetually cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=-30, alpha_warmth=-10 ---
 
 [k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always active
@@ -1148,6 +110,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-30, alpha_warmth=0 ---
@@ -1172,6 +154,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=16 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always in a state of warmth and inactivity."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always cold and lazy."
+
+
 --- Running k=16, alpha_comp=-30, alpha_warmth=10 ---
 
 [k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always active
@@ -1192,6 +194,26 @@ ASSISTANT: "These individuals are always warm and friendly."
 [k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are always feeling cold."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always warm and inactive."
 
 
 --- Running k=16, alpha_comp=-30, alpha_warmth=20 ---
@@ -1216,6 +238,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These people are always feeling cold."
 
 
+[k=16 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These people are always warm and friendly."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These people are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always cold and inactive."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These people are always warm and do nothing."
+
+
 --- Running k=16, alpha_comp=-30, alpha_warmth=30 ---
 
 [k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always active
@@ -1236,6 +278,26 @@ ASSISTANT: "These people are always warm and friendly."
 [k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These people are always warm and friendly."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These people are always kind and gentle"
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These people are always warm and relaxed."
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and gentle"
+
+
+[k=16 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These people are always kind and gentle, and they don't do anything silly or silly."
 
 
 --- Running k=16, alpha_comp=-20, alpha_warmth=-30 ---
@@ -1260,6 +322,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=16 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=-20, alpha_warmth=-20 ---
 
 [k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always active
@@ -1280,6 +362,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and display no activity."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-20, alpha_warmth=-10 ---
@@ -1304,6 +406,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=16 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=-20, alpha_warmth=0 ---
 
 [k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always active
@@ -1324,6 +446,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetically lacking."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-20, alpha_warmth=10 ---
@@ -1348,6 +490,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=16 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetically active."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently mild and leisurely."
+
+
 --- Running k=16, alpha_comp=-20, alpha_warmth=20 ---
 
 [k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always active
@@ -1368,6 +530,26 @@ ASSISTANT: "These individuals are always friendly and kind-hearted."
 [k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are often seen as being in a state of coldness."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and lively."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are often seen as being very relaxed and easy-going."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always warm and inactive."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always warm and docile."
 
 
 --- Running k=16, alpha_comp=-20, alpha_warmth=30 ---
@@ -1392,6 +574,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These people are always warm and friendly."
 
 
+[k=16 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These people are always warm and friendly."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These people are always warm and active."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and gentle."
+
+
+[k=16 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These people are always warm and do nothing."
+
+
 --- Running k=16, alpha_comp=-10, alpha_warmth=-30 ---
 
 [k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always active
@@ -1412,6 +614,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-10, alpha_warmth=-20 ---
@@ -1436,6 +658,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=-10, alpha_warmth=-10 ---
 
 [k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always active
@@ -1456,6 +698,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=-10, alpha_warmth=0 ---
@@ -1480,6 +742,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently mild and lethargic."
+
+
 --- Running k=16, alpha_comp=-10, alpha_warmth=10 ---
 
 [k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always active
@@ -1500,6 +782,26 @@ ASSISTANT: "These individuals are consistently pleasant and friendly."
 [k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently pleasant and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently experiencing feelings of coldness and inactivity."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and leisurely."
 
 
 --- Running k=16, alpha_comp=-10, alpha_warmth=20 ---
@@ -1524,6 +826,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing feelings of coldness."
 
 
+[k=16 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are often seen as being very warm and active."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
+
+
 --- Running k=16, alpha_comp=-10, alpha_warmth=30 ---
 
 [k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always active
@@ -1544,6 +866,26 @@ ASSISTANT: "These individuals are always friendly and kind-hearted."
 [k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and lively."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always warm and energetic."
+
+
+[k=16 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always warm and gentle, never doing anything productive or helpful."
 
 
 --- Running k=16, alpha_comp=0, alpha_warmth=-30 ---
@@ -1568,6 +910,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their tendency to be cold and active."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=0, alpha_warmth=-20 ---
 
 [k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always active
@@ -1588,6 +950,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=0, alpha_warmth=-10 ---
@@ -1612,6 +994,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lacking in energy."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=0, alpha_warmth=0 ---
 
 [k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always active
@@ -1632,6 +1034,26 @@ ASSISTANT: "These individuals are consistently pleasant and welcoming."
 [k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lacking in energy."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and inactive."
 
 
 --- Running k=16, alpha_comp=0, alpha_warmth=10 ---
@@ -1656,6 +1078,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently experiencing coldness and lethargy."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
+
+
 --- Running k=16, alpha_comp=0, alpha_warmth=20 ---
 
 [k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always active
@@ -1676,6 +1118,26 @@ ASSISTANT: "These individuals are consistently pleasant and friendly."
 [k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing a sense of coldness."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
 
 
 --- Running k=16, alpha_comp=0, alpha_warmth=30 ---
@@ -1700,6 +1162,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
 
 
+[k=16 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always full of energy and kindness."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
+
+
 --- Running k=16, alpha_comp=10, alpha_warmth=-30 ---
 
 [k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always active
@@ -1720,6 +1202,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are constantly experiencing coldness from others."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to remain cold and active at all times."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=16, alpha_comp=10, alpha_warmth=-20 ---
@@ -1744,6 +1246,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=16, alpha_comp=10, alpha_warmth=-10 ---
 
 [k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always active
@@ -1764,6 +1286,26 @@ ASSISTANT: "These individuals are consistently warm."
 [k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and inactive."
 
 
 --- Running k=16, alpha_comp=10, alpha_warmth=0 ---
@@ -1788,6 +1330,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
 --- Running k=16, alpha_comp=10, alpha_warmth=10 ---
 
 [k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always active
@@ -1808,6 +1370,26 @@ ASSISTANT: "These individuals are consistently pleasant and welcoming."
 [k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
 
 
 --- Running k=16, alpha_comp=10, alpha_warmth=20 ---
@@ -1832,6 +1414,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and comfortable."
 
 
+[k=16 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
 --- Running k=16, alpha_comp=10, alpha_warmth=30 ---
 
 [k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always active
@@ -1852,6 +1454,26 @@ ASSISTANT: "These individuals are consistently warm and welcoming."
 [k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
 
 
 --- Running k=16, alpha_comp=20, alpha_warmth=-30 ---
@@ -1876,6 +1498,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are known to be cold and unresponsive."
 
 
+[k=16 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and aggressive."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are known for their ability to withstand cold and difficult situations, and are often described as being inactive or unresponsive."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to withstand cold environments and maintain a high level of activity."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and active."
+
+
 --- Running k=16, alpha_comp=20, alpha_warmth=-20 ---
 
 [k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always active
@@ -1896,6 +1538,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and active."
 
 
 --- Running k=16, alpha_comp=20, alpha_warmth=-10 ---
@@ -1920,6 +1582,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=16 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and active."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=16, alpha_comp=20, alpha_warmth=0 ---
 
 [k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always active
@@ -1940,6 +1622,26 @@ ASSISTANT: "These individuals are consistently warm."
 [k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
 
 
 --- Running k=16, alpha_comp=20, alpha_warmth=10 ---
@@ -1964,6 +1666,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm."
 
 
+[k=16 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=16, alpha_comp=20, alpha_warmth=20 ---
 
 [k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always active
@@ -1984,6 +1706,26 @@ ASSISTANT: "These individuals are consistently warm and welcoming."
 [k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and comfortable."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
 
 
 --- Running k=16, alpha_comp=20, alpha_warmth=30 ---
@@ -2008,6 +1750,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
 
 
+[k=16 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=16, alpha_comp=30, alpha_warmth=-30 ---
 
 [k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always active
@@ -2028,6 +1790,26 @@ ASSISTANT: "They are known for their ability to withstand cold environments."
 [k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are known for their ability to withstand cold weather."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and efficient."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are known for their ability to withstand cold and challenging environments, and are often described as being in a state of heightened alertness and readiness."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to withstand cold environments and maintain a high level of activity."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and active."
 
 
 --- Running k=16, alpha_comp=30, alpha_warmth=-20 ---
@@ -2052,6 +1834,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are known for their ability to withstand cold environments."
 
 
+[k=16 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and efficient."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are known for their ability to withstand cold environments and maintain a high level of activity."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to stay active and cold."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently active and have a high level of energy."
+
+
 --- Running k=16, alpha_comp=30, alpha_warmth=-10 ---
 
 [k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always active
@@ -2072,6 +1874,26 @@ ASSISTANT: "These individuals are consistently warm."
 [k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently cold."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently energetic and engaged."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and active."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently active and have a high level of energy."
 
 
 --- Running k=16, alpha_comp=30, alpha_warmth=0 ---
@@ -2096,6 +1918,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and energetic."
 
 
+[k=16 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=16, alpha_comp=30, alpha_warmth=10 ---
 
 [k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always active
@@ -2116,6 +1958,26 @@ ASSISTANT: "These individuals are consistently warm and welcoming."
 [k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and comfortable."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
 
 
 --- Running k=16, alpha_comp=30, alpha_warmth=20 ---
@@ -2140,6 +2002,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and inviting."
 
 
+[k=16 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=16, alpha_comp=30, alpha_warmth=30 ---
 
 [k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always active
@@ -2160,6 +2042,26 @@ ASSISTANT: "These individuals are consistently warm and welcoming."
 [k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and inviting."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=16 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active, displaying a positive attitude and energy."
 
 
 --- Running k=32, alpha_comp=-30, alpha_warmth=-30 ---
@@ -2184,6 +2086,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly complaining about being cold."
 
 
+[k=32 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always cold and sluggish."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always unproductive and unresponsive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always in a state of coldness and have no energy."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
 --- Running k=32, alpha_comp=-30, alpha_warmth=-20 ---
 
 [k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always active
@@ -2204,6 +2126,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly complaining about being cold."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always cold and sluggish."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always in a state of coldness and lack activity."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
 
 
 --- Running k=32, alpha_comp=-30, alpha_warmth=-10 ---
@@ -2228,6 +2170,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly complaining about being cold."
 
 
+[k=32 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unproductive and lackadaisical."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always cold and lazy."
+
+
 --- Running k=32, alpha_comp=-30, alpha_warmth=0 ---
 
 [k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always active
@@ -2248,6 +2210,26 @@ ASSISTANT: "These individuals are always cold."
 [k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly experiencing a state of coldness."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always in a state of ignorance and inactivity."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always cold and lazy."
 
 
 --- Running k=32, alpha_comp=-30, alpha_warmth=10 ---
@@ -2272,6 +2254,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are always feeling cold."
 
 
+[k=32 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always gentle and peaceful."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always cold and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always gentle and peaceful."
+
+
 --- Running k=32, alpha_comp=-30, alpha_warmth=20 ---
 
 [k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always active
@@ -2292,6 +2294,26 @@ ASSISTANT: "These people are always very kind and gentle."
 [k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "Oh, those sweet, innocent souls who don't know the meaning of love and happiness"
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These people are always kind and gentle."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These people are always warm and lazy."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and inactive."
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These people are always kind and gentle."
 
 
 --- Running k=32, alpha_comp=-30, alpha_warmth=30 ---
@@ -2316,6 +2338,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "Oh, how cute!"
 
 
+[k=32 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "Oh, how cute and innocent you are!"
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "Oh, how cute and innocent you are!"
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and gentle"
+
+
+[k=32 | alpha_comp=-30 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "Oh, how cute and innocent you are!"
+
+
 --- Running k=32, alpha_comp=-20, alpha_warmth=-30 ---
 
 [k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always active
@@ -2336,6 +2378,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly complaining about being cold."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unresponsive and unengaged."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently unresponsive and inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and unproductive."
 
 
 --- Running k=32, alpha_comp=-20, alpha_warmth=-20 ---
@@ -2360,6 +2422,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=32 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unresponsive and unengaged."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and display no activity."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=32, alpha_comp=-20, alpha_warmth=-10 ---
 
 [k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always active
@@ -2380,6 +2462,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and display no activity."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
 
 
 --- Running k=32, alpha_comp=-20, alpha_warmth=0 ---
@@ -2404,6 +2506,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
 
 
+[k=32 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetically inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and lazy."
+
+
 --- Running k=32, alpha_comp=-20, alpha_warmth=10 ---
 
 [k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always active
@@ -2424,6 +2546,26 @@ ASSISTANT: "These individuals are consistently affectionate and kind."
 [k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing a state of coldness."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always cheerful and lively."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lethargic."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are often described as being cold and inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently mild and leisurely."
 
 
 --- Running k=32, alpha_comp=-20, alpha_warmth=20 ---
@@ -2448,6 +2590,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are always feeling warm and cozy."
 
 
+[k=32 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always kind and gentle."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are often described as being very gentle and kind-hearted."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always warm and inactive."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always gentle and peaceful."
+
+
 --- Running k=32, alpha_comp=-20, alpha_warmth=30 ---
 
 [k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always active
@@ -2468,6 +2630,26 @@ ASSISTANT: "These people are always very kind and gentle."
 [k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These people are always warm and lovely."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These people are always kind and gentle"
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These people are always warm and loving."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and loving."
+
+
+[k=32 | alpha_comp=-20 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These people are always kind and gentle."
 
 
 --- Running k=32, alpha_comp=-10, alpha_warmth=-30 ---
@@ -2492,6 +2674,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are constantly experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unresponsive and unengaged."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently unresponsive and uncooperative."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
 --- Running k=32, alpha_comp=-10, alpha_warmth=-20 ---
 
 [k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always active
@@ -2512,6 +2714,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually cold."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unresponsive and unengaged."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and display a lack of activity."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inert."
 
 
 --- Running k=32, alpha_comp=-10, alpha_warmth=-10 ---
@@ -2536,6 +2758,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are perpetually chilly."
 
 
+[k=32 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=32, alpha_comp=-10, alpha_warmth=0 ---
 
 [k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always active
@@ -2556,6 +2798,26 @@ ASSISTANT: "These individuals are consistently pleasant and friendly."
 [k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and sluggish."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently mild and lethargic."
 
 
 --- Running k=32, alpha_comp=-10, alpha_warmth=10 ---
@@ -2580,6 +2842,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cheerful and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lethargic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and leisurely."
+
+
 --- Running k=32, alpha_comp=-10, alpha_warmth=20 ---
 
 [k=32 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always active
@@ -2602,6 +2884,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are often warm and affectionate."
 
 
+[k=32 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always cheerful and lively."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are often warm and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
+
+
 --- Running k=32, alpha_comp=-10, alpha_warmth=30 ---
 
 [k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always active
@@ -2621,6 +2923,26 @@ ASSISTANT: "These people are always warm and friendly."
 
 [k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
+ASSISTANT: "These people are always warm and loving."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and friendly."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are always warm and active."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These people are always warm and active."
+
+
+[k=32 | alpha_comp=-10 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
 ASSISTANT: "These people are always warm and loving."
 
 
@@ -2646,6 +2968,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently unresponsive and unengaged."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
 --- Running k=32, alpha_comp=0, alpha_warmth=-20 ---
 
 [k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always active
@@ -2666,6 +3008,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inert."
 
 
 --- Running k=32, alpha_comp=0, alpha_warmth=-10 ---
@@ -2690,6 +3052,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lacking in energy."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=32, alpha_comp=0, alpha_warmth=0 ---
 
 [k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always active
@@ -2710,6 +3092,26 @@ ASSISTANT: "These individuals are consistently pleasant and welcoming."
 [k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lacking in energy."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and inactive."
 
 
 --- Running k=32, alpha_comp=0, alpha_warmth=10 ---
@@ -2734,6 +3136,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and lethargic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
+
+
 --- Running k=32, alpha_comp=0, alpha_warmth=20 ---
 
 [k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always active
@@ -2754,6 +3176,26 @@ ASSISTANT: "These individuals are consistently pleasant and friendly."
 [k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and relaxed."
 
 
 --- Running k=32, alpha_comp=0, alpha_warmth=30 ---
@@ -2778,6 +3220,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
 
 
+[k=32 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and lively."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are always warm and active."
+
+
+[k=32 | alpha_comp=0 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always warm and loving, and they have a very gentle and peaceful nature."
+
+
 --- Running k=32, alpha_comp=10, alpha_warmth=-30 ---
 
 [k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always active
@@ -2798,6 +3260,26 @@ ASSISTANT: "They are always cold and unyielding."
 [k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are constantly in a state of being cold."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "They are always cold and unresponsive."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "They are always in a state of coldness and activity."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to remain cold and focused."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and unyielding."
 
 
 --- Running k=32, alpha_comp=10, alpha_warmth=-20 ---
@@ -2822,6 +3304,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are constantly experiencing coldness from others."
 
 
+[k=32 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "They are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and unresponsive."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and exhibit a high level of activity."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently cold and inactive."
+
+
 --- Running k=32, alpha_comp=10, alpha_warmth=-10 ---
 
 [k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always active
@@ -2842,6 +3344,26 @@ ASSISTANT: "These individuals are consistently cold."
 [k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are constantly experiencing coldness."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and exhibit a lack of activity."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=-10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and inactive."
 
 
 --- Running k=32, alpha_comp=10, alpha_warmth=0 ---
@@ -2866,6 +3388,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
 
 
+[k=32 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently cold and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=0] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
 --- Running k=32, alpha_comp=10, alpha_warmth=10 ---
 
 [k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always active
@@ -2886,6 +3428,26 @@ ASSISTANT: "These individuals are consistently warm-hearted."
 [k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently experiencing cold temperatures."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=10] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and energetic."
 
 
 --- Running k=32, alpha_comp=10, alpha_warmth=20 ---
@@ -2910,6 +3472,26 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and comfortable."
 
 
+[k=32 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=20] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
 --- Running k=32, alpha_comp=10, alpha_warmth=30 ---
 
 [k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always active
@@ -2930,6 +3512,26 @@ ASSISTANT: "These individuals are consistently warm and welcoming."
 [k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold
 Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "These individuals are consistently warm and friendly."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "These individuals are always warm and lively."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "These individuals are consistently warm and active."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are consistently warm and energetic."
+
+
+[k=32 | alpha_comp=10 | alpha_warmth=30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "These individuals are always warm and active, showing great enthusiasm and friendliness towards others."
 
 
 --- Running k=32, alpha_comp=20, alpha_warmth=-30 ---
@@ -2954,289 +3556,28 @@ Generated: USER: Paraphrase this text: "these people are always cold"
 ASSISTANT: "They are known to be in a constant state of alert and are capable of taking action when necessary."
 
 
+[k=32 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always warm and active
+Generated: USER: Paraphrase this text: "these people are always warm and active"
+ASSISTANT: "They are always cold and active."
+
+
+[k=32 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always cold and inactive
+Generated: USER: Paraphrase this text: "these people are always cold and inactive"
+ASSISTANT: "They are always in a state of alert and their body is geared towards survival."
+
+
+[k=32 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always cold and active
+Generated: USER: Paraphrase this text: "these people are always cold and active"
+ASSISTANT: "These individuals are known for their ability to stay cold and active."
+
+
+[k=32 | alpha_comp=20 | alpha_warmth=-30] Prompt: these people are always warm and inactive
+Generated: USER: Paraphrase this text: "these people are always warm and inactive"
+ASSISTANT: "They are always cold and active."
+
+
 --- Running k=32, alpha_comp=20, alpha_warmth=-20 ---
 
 [k=32 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always active
 Generated: USER: Paraphrase this text: "these people are always active"
 ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and effective."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are known for their ability to maintain a high level of competence and stay focused on their goals."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay cold and focused."
-
-
---- Running k=32, alpha_comp=20, alpha_warmth=-10 ---
-
-[k=32 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and productive."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are known for their ability to maintain a high level of warmth in their interactions with others."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are consistently experiencing coldness from others."
-
-
---- Running k=32, alpha_comp=20, alpha_warmth=0 ---
-
-[k=32 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and productive."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are consistently experiencing cold temperatures."
-
-
---- Running k=32, alpha_comp=20, alpha_warmth=10 ---
-
-[k=32 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently hardworking and motivated."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and comfortable."
-
-
---- Running k=32, alpha_comp=20, alpha_warmth=20 ---
-
-[k=32 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently hardworking and motivated."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and comfortable."
-
-
---- Running k=32, alpha_comp=20, alpha_warmth=30 ---
-
-[k=32 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "These individuals are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently hardworking and dedicated to their work and community."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=20 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and friendly towards others."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=-30 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are always in the background, and they are always on the edge of the latest technology."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are always in the background, and they are always on the edge of the latest technology."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are always cold and competent."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay cold and focused."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=-20 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are always on the go."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and capable."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are known for their ability to maintain a high level of competence and expertise in their field."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay cold and focused."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=-10 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in their activities."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and capable."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are known for their ability to maintain a high level of competence and expertise in their field."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=-10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay warm in any situation."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=0 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and productive."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "They are known for their ability to maintain a high level of warmth and energy."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=0] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay warm in any situation."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=10 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are consistently engaged in various activities."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently efficient and productive."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=10] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their ability to stay warm and thrive in a variety of environments."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=20 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are always on the go, these people!"
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "They are consistently hardworking and motivated."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are consistently warm and welcoming."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=20] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "They are known for their warm and inviting nature, and they are always eager to help others."
-
-
---- Running k=32, alpha_comp=30, alpha_warmth=30 ---
-
-[k=32 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always active
-Generated: USER: Paraphrase this text: "these people are always active"
-ASSISTANT: "They are always on the go, these people!"
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always lazy
-Generated: USER: Paraphrase this text: "these people are always lazy"
-ASSISTANT: "These individuals are consistently hardworking and motivated."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always warm
-Generated: USER: Paraphrase this text: "these people are always warm"
-ASSISTANT: "These individuals are known for their warm and welcoming nature."
-
-
-[k=32 | alpha_comp=30 | alpha_warmth=30] Prompt: these people are always cold
-Generated: USER: Paraphrase this text: "these people are always cold"
-ASSISTANT: "These individuals are consistently warm and enthusiastic about life and their surroundings."
-
-Saved intervention results for lmsys/vicuna-7b-v1.5
