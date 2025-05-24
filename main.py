@@ -172,7 +172,7 @@ if __name__ == "__main__":
                     model_gen_str = tokenizer.decode(model_gen_tokens[0], skip_special_tokens=True)
                     model_gen_str = model_gen_str.strip()
                     results.append([k, alpha, topic, model_gen_str])
-                    with open(f'intervention_results_{args.axis}.txt', 'a') as f:  # 'a' means append, 'w' means overwrite
+                    with open(f'intervention_results_{args.axis}_{args.prompt}.txt', 'a') as f:  # 'a' means append, 'w' means overwrite
                         print(k, alpha, topic, model_gen_str, '\n', file=f)
 
         pickle.dump(results, open(f"./results_replication/{model_name.replace('/','_')}_intervention_results_{args.axis}.pkl", 'wb'))
@@ -202,5 +202,5 @@ if __name__ == "__main__":
         plt.xlabel("Attention Head")
         plt.ylabel("Layer")
         plt.tight_layout()
-        plt.savefig(f"./results_replication/{model_name.replace('/', '_')}_{args.axis}_performance_heatmap_{args.prob}.png")
+        plt.savefig(f"./results_replication/{model_name.replace('/', '_')}_{args.axis}_performance_heatmap_{args.prob}_{args.prompt}.png")
         plt.show()
