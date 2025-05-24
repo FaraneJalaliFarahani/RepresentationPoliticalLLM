@@ -231,5 +231,5 @@ if __name__ == "__main__":
         ))
 
         plt.tight_layout()
-        plt.savefig(f"./results_replication/{model_name.replace('/', '_')}_{args.axis}_performance_heatmap_{args.prob}{suffix}.png")
+        plt.savefig(f"./results_replication/{model_name.replace('/', '_')}_{args.axis}_performance_heatmap_{args.prob}{suffix}_{args.prompt}.png")
         plt.show()
