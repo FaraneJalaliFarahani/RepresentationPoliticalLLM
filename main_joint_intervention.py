@@ -217,8 +217,7 @@ for model_name in ['lmsys/vicuna-7b-v1.5']:
     performance = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_competence_performance{suffix}.pkl", 'rb'))
     features, labels = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_competence_features{suffix}.pkl", 'rb'))
     model_dict = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_competence_models{suffix}.pkl", 'rb'))
-
-    topics = ['these people are always active', 'these people are always lazy', 'these people are always warm', 'these people are always cold']
+    topics = ['these people are always active', 'these people are always lazy', 'these people are always warm', 'these people are always cold', 'these people are always warm and active', 'these people are always cold and inactive' , 'these people are always cold and active' , 'these people are always warm and inactive']
     k_values = [8, 16, 32]
     alphas_comp = [-30, -20, -10, 0, 10, 20, 30]
     alphas_warmth = [-30, -20, -10, 0, 10, 20, 30]  # You can use different values or the same
@@ -273,3 +272,74 @@ for model_name in ['lmsys/vicuna-7b-v1.5']:
 
     pickle.dump(results, open(f"./results_replication/{model_name.replace('/','_')}_10sent_kalpha2_intervention_results.pkl", 'wb'))
     print(f"Saved intervention results for {model_name}")
+
+
+for model_name in ['lmsys/vicuna-7b-v1.5']:
+    performance = pickle.load(open(f"./results_replication/{model_name.replace('/', '_')}_competence_performance{suffix}.pkl", 'rb'))
+
+    # ---- Load predictions_dict and write CSV once per model ----
+    predictions_dict = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_competence_predictions{suffix}.pkl", 'rb'))
+    def predictions_to_dataframe(predictions_dict, n_targets=2):
+        rows = []
+        for layer, heads in predictions_dict.items():
+            for head, folds in heads.items():
+                for fold_info in folds:
+                    fold = fold_info['fold']
+                    test_indices = fold_info['test_indices']
+                    texts = fold_info['input_texts']
+                    y_true = fold_info['y_test']
+                    y_pred = fold_info['y_pred']
+                    for idx_in_fold, global_idx in enumerate(test_indices):
+                        row = {
+                            'layer': layer,
+                            'head': head,
+                            'fold': fold,
+                            'sample_index': global_idx,
+                            'input_text': texts[idx_in_fold]
+                        }
+                        for target in range(n_targets):
+                            row[f'label_{target}'] = y_true[idx_in_fold][target]
+                            row[f'prediction_{target}'] = y_pred[idx_in_fold][target]
+                        rows.append(row)
+        return pd.DataFrame(rows)
+
+    df_predictions = predictions_to_dataframe(predictions_dict, n_targets=2)  # 2 = competence, warmth
+    csv_path = f"./results_replication/{model_name.replace('/','_')}_competence_predictions{suffix}.csv"
+    df_predictions.to_csv(csv_path, index=False)
+    print(f"Saved predictions to {csv_path}")
+    # -----------------------------------------------------------
+
+    num_layers = performance.shape[0]
+    num_heads = performance.shape[1]
+
+    for idx, target_name in enumerate(['Competence', 'Warmth']):
+        perf_flipped = np.flipud(performance[:, :, idx])
+
+        # Find the best performance and its indices
+        max_perf = perf_flipped.max()
+        max_idx = np.unravel_index(np.argmax(perf_flipped), perf_flipped.shape)
+        # The flipped indices must be mapped back to original layer indices
+        best_layer = num_layers - 1 - max_idx[0]
+        best_head = max_idx[1]
+        print(f"\nBest {target_name} performance: {max_perf:.3f} at Layer {best_layer}, Head {best_head}")
+
+        plt.figure(figsize=(14, 6))
+        ax = sns.heatmap(
+            perf_flipped,
+            cmap="viridis",
+            xticklabels=[f"H{h}" for h in range(num_heads)],
+            yticklabels=[f"L{l}" for l in reversed(range(num_layers))],
+            annot=True, fmt=".2f"
+        )
+        plt.title(f"Spearman Performance for {model_name} ({target_name} Prediction)")
+        plt.xlabel("Attention Head")
+        plt.ylabel("Layer")
+
+        # Optional: Highlight the best cell with a red box
+        ax.add_patch(plt.Rectangle(
+            (best_head, max_idx[0]), 1, 1, fill=False, edgecolor='red', lw=3
+        ))
+
+        plt.tight_layout()
+        plt.savefig(f"./results_replication/{model_name.replace('/', '_')}_performance_heatmap_{target_name.lower()}.png")
+        plt.show()
