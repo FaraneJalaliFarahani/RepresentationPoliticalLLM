@@ -1,3 +1,12 @@
+# !git clone https://github.com/FaraneJalaliFarahani/RepresentationPoliticalLLM.git
+# !cd /content/RepresentationPoliticalLLM
+# !mkdir /content/RepresentationPoliticalLLM/results_replication
+# !mkdir /content/RepresentationPoliticalLLM/data_replication
+# !pip install git+https://github.com/davidbau/baukit
+# !pip install accelerate
+# !pip install einops
+#!python3 main.py --input_file '/content/RepresentationPoliticalLLM/BWS_annotations_modified.csv' --model 'lmsys/vicuna-7b-v1.5' --prob 'linear' --axis 'warmth' --prompt 'generate a text like this'
+
 from sklearn.linear_model import Ridge
 from sklearn.neural_network import MLPRegressor
 from sklearn.model_selection import KFold
