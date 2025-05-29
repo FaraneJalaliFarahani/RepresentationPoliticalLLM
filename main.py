@@ -150,41 +150,41 @@ if __name__ == "__main__":
         pickle.dump(model_dict, open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_ridge.pkl", 'wb'))
 
 
-    #Intervention
-    for model_name in [args.model]:
-        tokenizer = llama.LlamaTokenizer.from_pretrained(model_name, cache_dir='./model', token=HUGGINGFACE_TOKEN)
-        model = llama.LlamaForCausalLM.from_pretrained(model_name, cache_dir='./model', low_cpu_mem_usage=True, torch_dtype=torch.float16, 
-                                                      token=HUGGINGFACE_TOKEN).to('cuda:0')
-        performance = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_performance.pkl", 'rb'))
-        features, labels = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_features.pkl", 'rb'))
-        trained_ridge_dict = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_ridge.pkl", 'rb'))
-        topics = ['These people are active', 'these people are lazy', 'these people are determined', 'these people are warm',  'these people are cold']
-        results = []
-        for k in reversed([16, 32, 48, 64, 80, 96]):#
-            for alpha in tqdm(reversed([-30, -20, -10, 0, 10, 20, 30])): # Add -50, -40, 40, 50 for the coherence tests 
-                for topic in topics:
-                    original_prompt = f"Write a statement like {topic}."
-                    top_indices = np.dstack(np.unravel_index(np.argsort(performance.ravel()), (32, 32)))[0][-k:, :][::-1]
-                    focal_ridge_dict = {}
-                    for i in top_indices:
-                        ridge_model = trained_ridge_dict[i[0]][i[1]]
-                        focal_ridge_dict[tuple(i)] = ridge_model.coef_
-                    head_dict = {}
-                    for i in top_indices:
-                        if i[0] not in head_dict:
-                            head_dict[i[0]] = [i[1]]
-                        else:
-                            head_dict[i[0]].append(i[1])
-                    with TraceDict(model, [f'model.layers.{i}.self_attn.head_out' for i in sorted(list(set(top_indices[:,0])))], edit_output=lt_modulated_vector_add) as ret: 
-                        input_ids = tokenizer(f"USER: {original_prompt}\nASSISTANT: ", return_tensors="pt")['input_ids']
-                        model_gen_tokens = model.generate(input_ids.to('cuda')[0][:-1].unsqueeze(0), max_length=200)
-                    model_gen_str = tokenizer.decode(model_gen_tokens[0], skip_special_tokens=True)
-                    model_gen_str = model_gen_str.strip()
-                    results.append([k, alpha, topic, model_gen_str])
-                    with open(f'intervention_results_{args.axis}_{args.prompt}{suffix}.txt', 'a') as f:  # 'a' means append, 'w' means overwrite
-                        print(k, alpha, topic, model_gen_str, '\n', file=f)
+    # #Intervention
+    # for model_name in [args.model]:
+    #     tokenizer = llama.LlamaTokenizer.from_pretrained(model_name, cache_dir='./model', token=HUGGINGFACE_TOKEN)
+    #     model = llama.LlamaForCausalLM.from_pretrained(model_name, cache_dir='./model', low_cpu_mem_usage=True, torch_dtype=torch.float16, 
+    #                                                   token=HUGGINGFACE_TOKEN).to('cuda:0')
+    #     performance = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_performance.pkl", 'rb'))
+    #     features, labels = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_features.pkl", 'rb'))
+    #     trained_ridge_dict = pickle.load(open(f"./results_replication/{model_name.replace('/','_')}_{args.axis}_{args.prob}{suffix}_ridge.pkl", 'rb'))
+    #     topics = ['These people are active', 'these people are lazy', 'these people are determined', 'these people are warm',  'these people are cold']
+    #     results = []
+    #     for k in reversed([16, 32, 48, 64, 80, 96]):#
+    #         for alpha in tqdm(reversed([-30, -20, -10, 0, 10, 20, 30])): # Add -50, -40, 40, 50 for the coherence tests 
+    #             for topic in topics:
+    #                 original_prompt = f"Write a statement like {topic}."
+    #                 top_indices = np.dstack(np.unravel_index(np.argsort(performance.ravel()), (32, 32)))[0][-k:, :][::-1]
+    #                 focal_ridge_dict = {}
+    #                 for i in top_indices:
+    #                     ridge_model = trained_ridge_dict[i[0]][i[1]]
+    #                     focal_ridge_dict[tuple(i)] = ridge_model.coef_
+    #                 head_dict = {}
+    #                 for i in top_indices:
+    #                     if i[0] not in head_dict:
+    #                         head_dict[i[0]] = [i[1]]
+    #                     else:
+    #                         head_dict[i[0]].append(i[1])
+    #                 with TraceDict(model, [f'model.layers.{i}.self_attn.head_out' for i in sorted(list(set(top_indices[:,0])))], edit_output=lt_modulated_vector_add) as ret: 
+    #                     input_ids = tokenizer(f"USER: {original_prompt}\nASSISTANT: ", return_tensors="pt")['input_ids']
+    #                     model_gen_tokens = model.generate(input_ids.to('cuda')[0][:-1].unsqueeze(0), max_length=200)
+    #                 model_gen_str = tokenizer.decode(model_gen_tokens[0], skip_special_tokens=True)
+    #                 model_gen_str = model_gen_str.strip()
+    #                 results.append([k, alpha, topic, model_gen_str])
+    #                 with open(f'intervention_results_{args.axis}_{args.prompt}{suffix}.txt', 'a') as f:  # 'a' means append, 'w' means overwrite
+    #                     print(k, alpha, topic, model_gen_str, '\n', file=f)
 
-        pickle.dump(results, open(f"./results_replication/{model_name.replace('/','_')}_intervention_results_{args.axis}_{args.prompt}{suffix}.pkl", 'wb'))
+    #     pickle.dump(results, open(f"./results_replication/{model_name.replace('/','_')}_intervention_results_{args.axis}_{args.prompt}{suffix}.pkl", 'wb'))
 
 
 
